@@ -9,8 +9,8 @@
 
 }
 .social-icon{
-	width: 15px;
-	height: 15px;
+	width: 12px;
+	height: 12px;
 	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(29deg) brightness(109%) contrast(101%);
 	 /*CSS filter generator to convert SVG from black to target hex color. Link: 
 	 https://codepen.io/sosuke/pen/Pjoqqp */
