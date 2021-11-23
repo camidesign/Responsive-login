@@ -9,8 +9,8 @@
 
 }
 .social-icon{
-	width: 12px;
-	height: 12px;
+	width: 10px;
+	height: 10px;
 	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(29deg) brightness(109%) contrast(101%);
 	 /*CSS filter generator to convert SVG from black to target hex color. Link: 
 	 https://codepen.io/sosuke/pen/Pjoqqp */
@@ -28,7 +28,7 @@ body{
 
 main.container{
 	background: white;
-	max-width: 380px;
+	min-width: 320px;
 	padding: 2rem;
 	box-shadow: 5px 5px 15px rgba(124,79,255,0.2);
 	border-radius: 8px;
@@ -109,6 +109,14 @@ form input[type="submit"]:hover {
 	width: 100%;
 	cursor: pointer;
 	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.footer .social-field a i{
+	margin: 0 0.5rem;
+	width: 15px;
 }
 
 .footer .social-field a{
